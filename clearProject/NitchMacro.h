@@ -18,6 +18,7 @@
 //屏幕数据
 #define NITCH_MACRO_SCREENWIDTH [[UIScreen mainScreen] bounds].size.width
 #define NITCH_MACRO_SCREENHEIGHT [[UIScreen mainScreen] bounds].size.height
+#define NITCH_MACRO_SCREENNAINSCREEN [UIScreen mainScreen]
 
 //随机颜色
 #define NITCH_MACRO_RANDOMCOLOR [UIColor colorWithRed:arc4random() % 256/255.0 green:arc4random() % 256/255.0 blue:arc4random() % 256/255.0 alpha:arc4random() % 256/255.0]

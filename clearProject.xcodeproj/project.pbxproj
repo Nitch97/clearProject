@@ -15,9 +15,8 @@
 		1AA3B39C1F7F8D2D000BE9DC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1AA3B39A1F7F8D2D000BE9DC /* LaunchScreen.storyboard */; };
 		1AA3B3A71F7F8D2E000BE9DC /* clearProjectTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AA3B3A61F7F8D2E000BE9DC /* clearProjectTests.m */; };
 		1AA3B3B21F7F8D2E000BE9DC /* clearProjectUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AA3B3B11F7F8D2E000BE9DC /* clearProjectUITests.m */; };
-		1AA3B3CA1F7F9E5A000BE9DC /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AA3B3C71F7F9E5A000BE9DC /* BaseViewController.m */; };
-		1AA3B3CB1F7F9E5A000BE9DC /* BaseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AA3B3C91F7F9E5A000BE9DC /* BaseModel.m */; };
 		1AA3B3CF1F7F9F02000BE9DC /* NitchConst.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AA3B3CE1F7F9F02000BE9DC /* NitchConst.m */; };
+		1AA3B3D41F7FA5AB000BE9DC /* NitchBaseNSObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AA3B3D31F7FA5AB000BE9DC /* NitchBaseNSObject.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,13 +53,12 @@
 		1AA3B3AD1F7F8D2E000BE9DC /* clearProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = clearProjectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1AA3B3B11F7F8D2E000BE9DC /* clearProjectUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = clearProjectUITests.m; sourceTree = "<group>"; };
 		1AA3B3B31F7F8D2E000BE9DC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		1AA3B3C61F7F9E5A000BE9DC /* BaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
-		1AA3B3C71F7F9E5A000BE9DC /* BaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
-		1AA3B3C81F7F9E5A000BE9DC /* BaseModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseModel.h; sourceTree = "<group>"; };
-		1AA3B3C91F7F9E5A000BE9DC /* BaseModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseModel.m; sourceTree = "<group>"; };
 		1AA3B3CD1F7F9F02000BE9DC /* NitchConst.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NitchConst.h; sourceTree = "<group>"; };
 		1AA3B3CE1F7F9F02000BE9DC /* NitchConst.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NitchConst.m; sourceTree = "<group>"; };
 		1AA3B3D01F7FA128000BE9DC /* NitchMacro.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NitchMacro.h; sourceTree = "<group>"; };
+		1AA3B3D11F7FA518000BE9DC /* NitchHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NitchHeader.h; sourceTree = "<group>"; };
+		1AA3B3D21F7FA5AB000BE9DC /* NitchBaseNSObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NitchBaseNSObject.h; sourceTree = "<group>"; };
+		1AA3B3D31F7FA5AB000BE9DC /* NitchBaseNSObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NitchBaseNSObject.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -155,6 +153,8 @@
 		1AA3B3BF1F7F8D46000BE9DC /* Base */ = {
 			isa = PBXGroup;
 			children = (
+				1AA3B3D21F7FA5AB000BE9DC /* NitchBaseNSObject.h */,
+				1AA3B3D31F7FA5AB000BE9DC /* NitchBaseNSObject.m */,
 			);
 			name = Base;
 			sourceTree = "<group>";
@@ -169,11 +169,12 @@
 		1AA3B3C21F7F8E31000BE9DC /* Other */ = {
 			isa = PBXGroup;
 			children = (
-				1AA3B3D01F7FA128000BE9DC /* NitchMacro.h */,
 				1AA3B3CC1F7F9EC8000BE9DC /* const */,
-				1AA3B3981F7F8D2D000BE9DC /* Assets.xcassets */,
+				1AA3B3D11F7FA518000BE9DC /* NitchHeader.h */,
+				1AA3B3D01F7FA128000BE9DC /* NitchMacro.h */,
 				1AA3B38F1F7F8D2D000BE9DC /* AppDelegate.h */,
 				1AA3B3901F7F8D2D000BE9DC /* AppDelegate.m */,
+				1AA3B3981F7F8D2D000BE9DC /* Assets.xcassets */,
 				1AA3B39D1F7F8D2D000BE9DC /* Info.plist */,
 			);
 			name = Other;
@@ -189,10 +190,6 @@
 		1AA3B3C41F7F9058000BE9DC /* Class */ = {
 			isa = PBXGroup;
 			children = (
-				1AA3B3C61F7F9E5A000BE9DC /* BaseViewController.h */,
-				1AA3B3C71F7F9E5A000BE9DC /* BaseViewController.m */,
-				1AA3B3C81F7F9E5A000BE9DC /* BaseModel.h */,
-				1AA3B3C91F7F9E5A000BE9DC /* BaseModel.m */,
 			);
 			name = Class;
 			sourceTree = "<group>";
@@ -347,11 +344,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				1AA3B3941F7F8D2D000BE9DC /* ViewController.m in Sources */,
-				1AA3B3CA1F7F9E5A000BE9DC /* BaseViewController.m in Sources */,
 				1AA3B3911F7F8D2D000BE9DC /* AppDelegate.m in Sources */,
-				1AA3B3CB1F7F9E5A000BE9DC /* BaseModel.m in Sources */,
 				1AA3B3CF1F7F9F02000BE9DC /* NitchConst.m in Sources */,
 				1AA3B38E1F7F8D2D000BE9DC /* main.m in Sources */,
+				1AA3B3D41F7FA5AB000BE9DC /* NitchBaseNSObject.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
