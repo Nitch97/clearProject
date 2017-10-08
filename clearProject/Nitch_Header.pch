@@ -1,0 +1,17 @@
+//
+//  Nitch_Header.pch
+//  clearProject
+//
+//  Created by Shao Wei Su on 2017/10/8.
+//  Copyright © 2017年 LY. All rights reserved.
+//
+
+#ifndef Nitch_Header_pch
+#define Nitch_Header_pch
+
+//宏文件
+#import "NitchMacro.h"
+//常量
+#import "LYConst.h"
+
+#endif /* Nitch_Header_pch */

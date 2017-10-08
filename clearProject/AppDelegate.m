@@ -7,7 +7,6 @@
 //
 
 #import "AppDelegate.h"
-#import "NitchHeader.h"
 
 @interface AppDelegate ()
 
@@ -17,15 +16,16 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    
-    
-    
     return YES;
 }
 
 -(void)isFirstLaunch{
     
     self.window = [[UIWindow alloc]initWithFrame:NITCH_MACRO_SCREENNAINSCREEN.bounds];
+    
+    //判断系统是否为第一次启动
+    BOOL firstLaunch = [[NSUserDefaults standardUserDefaults] boolForKey: FirstLaunch];
+//    if (!FirstLaunch)
     
 
     

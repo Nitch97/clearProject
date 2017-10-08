@@ -7,7 +7,6 @@
 //
 
 #import "NitchBaseNSObject.h"
-#import "NitchHeader.h"         //头文件
 
 
 @implementation NitchBaseNSObject

@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1A745BDD1F89B6EF00B023AB /* LYConst.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A745BDC1F89B6EF00B023AB /* LYConst.m */; };
+		1A745BE31F89B92A00B023AB /* WelcomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A745BE21F89B92A00B023AB /* WelcomeViewController.m */; };
 		1AA3B38E1F7F8D2D000BE9DC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AA3B38D1F7F8D2D000BE9DC /* main.m */; };
 		1AA3B3911F7F8D2D000BE9DC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AA3B3901F7F8D2D000BE9DC /* AppDelegate.m */; };
 		1AA3B3941F7F8D2D000BE9DC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AA3B3931F7F8D2D000BE9DC /* ViewController.m */; };
@@ -15,7 +17,6 @@
 		1AA3B39C1F7F8D2D000BE9DC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1AA3B39A1F7F8D2D000BE9DC /* LaunchScreen.storyboard */; };
 		1AA3B3A71F7F8D2E000BE9DC /* clearProjectTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AA3B3A61F7F8D2E000BE9DC /* clearProjectTests.m */; };
 		1AA3B3B21F7F8D2E000BE9DC /* clearProjectUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AA3B3B11F7F8D2E000BE9DC /* clearProjectUITests.m */; };
-		1AA3B3CF1F7F9F02000BE9DC /* NitchConst.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AA3B3CE1F7F9F02000BE9DC /* NitchConst.m */; };
 		1AA3B3D41F7FA5AB000BE9DC /* NitchBaseNSObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AA3B3D31F7FA5AB000BE9DC /* NitchBaseNSObject.m */; };
 /* End PBXBuildFile section */
 
@@ -37,6 +38,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1A745BDB1F89B6EF00B023AB /* LYConst.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYConst.h; sourceTree = "<group>"; };
+		1A745BDC1F89B6EF00B023AB /* LYConst.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYConst.m; sourceTree = "<group>"; };
+		1A745BDE1F89B79F00B023AB /* Nitch_Header.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Nitch_Header.pch; sourceTree = "<group>"; };
+		1A745BE11F89B92A00B023AB /* WelcomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WelcomeViewController.h; sourceTree = "<group>"; };
+		1A745BE21F89B92A00B023AB /* WelcomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WelcomeViewController.m; sourceTree = "<group>"; };
 		1AA3B3891F7F8D2D000BE9DC /* clearProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = clearProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1AA3B38D1F7F8D2D000BE9DC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		1AA3B38F1F7F8D2D000BE9DC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -53,10 +59,7 @@
 		1AA3B3AD1F7F8D2E000BE9DC /* clearProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = clearProjectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1AA3B3B11F7F8D2E000BE9DC /* clearProjectUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = clearProjectUITests.m; sourceTree = "<group>"; };
 		1AA3B3B31F7F8D2E000BE9DC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		1AA3B3CD1F7F9F02000BE9DC /* NitchConst.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NitchConst.h; sourceTree = "<group>"; };
-		1AA3B3CE1F7F9F02000BE9DC /* NitchConst.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NitchConst.m; sourceTree = "<group>"; };
 		1AA3B3D01F7FA128000BE9DC /* NitchMacro.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NitchMacro.h; sourceTree = "<group>"; };
-		1AA3B3D11F7FA518000BE9DC /* NitchHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NitchHeader.h; sourceTree = "<group>"; };
 		1AA3B3D21F7FA5AB000BE9DC /* NitchBaseNSObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NitchBaseNSObject.h; sourceTree = "<group>"; };
 		1AA3B3D31F7FA5AB000BE9DC /* NitchBaseNSObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NitchBaseNSObject.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -86,6 +89,31 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1A745BDF1F89B8CE00B023AB /* LoadingView */ = {
+			isa = PBXGroup;
+			children = (
+				1A745BE41F89B93000B023AB /* WelcomeView */,
+				1A745BE51F89C1ED00B023AB /* LoginAndRegister */,
+			);
+			name = LoadingView;
+			sourceTree = "<group>";
+		};
+		1A745BE41F89B93000B023AB /* WelcomeView */ = {
+			isa = PBXGroup;
+			children = (
+				1A745BE11F89B92A00B023AB /* WelcomeViewController.h */,
+				1A745BE21F89B92A00B023AB /* WelcomeViewController.m */,
+			);
+			name = WelcomeView;
+			sourceTree = "<group>";
+		};
+		1A745BE51F89C1ED00B023AB /* LoginAndRegister */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = LoginAndRegister;
+			sourceTree = "<group>";
+		};
 		1AA3B3801F7F8D2D000BE9DC = {
 			isa = PBXGroup;
 			children = (
@@ -170,7 +198,7 @@
 			isa = PBXGroup;
 			children = (
 				1AA3B3CC1F7F9EC8000BE9DC /* const */,
-				1AA3B3D11F7FA518000BE9DC /* NitchHeader.h */,
+				1A745BDE1F89B79F00B023AB /* Nitch_Header.pch */,
 				1AA3B3D01F7FA128000BE9DC /* NitchMacro.h */,
 				1AA3B38F1F7F8D2D000BE9DC /* AppDelegate.h */,
 				1AA3B3901F7F8D2D000BE9DC /* AppDelegate.m */,
@@ -183,6 +211,7 @@
 		1AA3B3C31F7F9050000BE9DC /* Main */ = {
 			isa = PBXGroup;
 			children = (
+				1A745BDF1F89B8CE00B023AB /* LoadingView */,
 			);
 			name = Main;
 			sourceTree = "<group>";
@@ -204,8 +233,8 @@
 		1AA3B3CC1F7F9EC8000BE9DC /* const */ = {
 			isa = PBXGroup;
 			children = (
-				1AA3B3CD1F7F9F02000BE9DC /* NitchConst.h */,
-				1AA3B3CE1F7F9F02000BE9DC /* NitchConst.m */,
+				1A745BDB1F89B6EF00B023AB /* LYConst.h */,
+				1A745BDC1F89B6EF00B023AB /* LYConst.m */,
 			);
 			name = const;
 			sourceTree = "<group>";
@@ -345,9 +374,10 @@
 			files = (
 				1AA3B3941F7F8D2D000BE9DC /* ViewController.m in Sources */,
 				1AA3B3911F7F8D2D000BE9DC /* AppDelegate.m in Sources */,
-				1AA3B3CF1F7F9F02000BE9DC /* NitchConst.m in Sources */,
+				1A745BDD1F89B6EF00B023AB /* LYConst.m in Sources */,
 				1AA3B38E1F7F8D2D000BE9DC /* main.m in Sources */,
 				1AA3B3D41F7FA5AB000BE9DC /* NitchBaseNSObject.m in Sources */,
+				1A745BE31F89B92A00B023AB /* WelcomeViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -496,6 +526,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = clearProject/Nitch_Header.pch;
 				INFOPLIST_FILE = clearProject/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.LY.clearProject;
@@ -507,6 +539,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = clearProject/Nitch_Header.pch;
 				INFOPLIST_FILE = clearProject/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.LY.clearProject;
@@ -579,6 +613,7 @@
 				1AA3B3B81F7F8D2E000BE9DC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1AA3B3B91F7F8D2E000BE9DC /* Build configuration list for PBXNativeTarget "clearProjectTests" */ = {
 			isa = XCConfigurationList;
@@ -587,6 +622,7 @@
 				1AA3B3BB1F7F8D2E000BE9DC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1AA3B3BC1F7F8D2E000BE9DC /* Build configuration list for PBXNativeTarget "clearProjectUITests" */ = {
 			isa = XCConfigurationList;
@@ -595,6 +631,7 @@
 				1AA3B3BE1F7F8D2E000BE9DC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
