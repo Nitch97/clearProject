@@ -13,5 +13,47 @@
 #import "NitchMacro.h"
 //常量
 #import "LYConst.h"
+//category
+#import "UIView+Frame.h"
 
+
+//OLD
+
+// 存放头文件
+
+// 01 宏文件
+#import "JFBHong.h"
+// 02 尺寸分类
+#import "UIView+Frame.h"
+// 03 网络请求
+#import "NetWorkManager.h"
+// 04 判断登录
+#import "UserInfoManager.h"
+// 05 按钮设置图片和文字的分类
+#import "UIButton+ImgAndTitle.h"
+// 06 无限轮播图
+#import "SDCycleScrollView.h"
+// 07 SDWebImage
+#import "UIImageView+WebCache.h"
+// 08 按钮模型,图片在上文字在下
+#import "LYButtonImgAndText.h"
+// 09 加载菊花
+#import "MBProgressHUD.h"
+// 10 选择按钮控件
+#import "LYSelectBtnView.h"
+// 11 刷新
+#import "MJRefresh.h"
+// 14 城市选择器
+#import "AddressPickerView.h"
+// 15 弹出支付界面
+#import "ZCTradeView.h"
+#import "UIAlertView+Quick.h"
+// 16 Nav按钮
+#import "UIBarButtonItem+LYExtension.h"
+// 17 字符分类
+#import "NSString+LYExtension.h"
+// 18 下拉选项
+#import "LYPopViewAnimation.h"
+// 19 全局变量
+#import "LYConst.h"
 #endif /* Nitch_Header_pch */

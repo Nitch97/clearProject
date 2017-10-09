@@ -26,6 +26,10 @@
 //RGB
 #define NITCH_MACRO_FASTCREAT_COLOR(r,g,b) [UIColor colorWithRed:(r)/225.0 green:(g)/225.0 blue:(b)/225.0 alpha:1.0]
 
+// 屏幕适配比率
+#define NITCH_MACRO_LYSIZE ([UIScreen mainScreen].bounds.size.width)/320
+#define NITCH_MACRO_LYSIZEY ([UIScreen mainScreen].bounds.size.height)/568
+
 
 
 
